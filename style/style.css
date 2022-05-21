@@ -1,0 +1,63 @@
+@import "./fonts.css";
+/*BASE CONFIG*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/*BASE CONFIG*/
+/*UNIQUE CONFIG*/
+.d_flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.align-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+/*UNIQUE CONFIG*/
+/*SECTION HERO*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding: 41px 0;
+    background: no-repeat center/cover url("../images/hero.png");
+}
+.hero .d_flex {
+    margin-top: 88px;
+}
+.hero_title {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+    color: #FFFFFF;
+}
+.hero_desc {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.hero_link {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 3.7px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+/*SECTION HERO*/
