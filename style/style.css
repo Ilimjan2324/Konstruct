@@ -29,6 +29,13 @@ a {
 .justify-between {
     justify-content: space-between;
 }
+.container {
+    max-width: 962px;
+    padding: 0 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
 /*UNIQUE CONFIG*/
 /*SECTION HERO*/
 .hero {
@@ -61,3 +68,25 @@ a {
     margin-bottom: 30px;
 }
 /*SECTION HERO*/
+/*SECTION HEADER*/
+.header {
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+}
+.header .container .d_flex {
+    width: 410.5px;
+}
+.header_link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+    text-transform: uppercase;
+}
+.header_link:hover {
+    content: "";
+    color: #00A4E5;
+}
+/*SECTION HEADER*/
