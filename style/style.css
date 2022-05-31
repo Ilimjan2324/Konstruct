@@ -72,12 +72,14 @@ input {
     line-height: 19px;
     color: #FFFFFF;
 }
-.hero_link {
+.hero_btn {
     font-size: 11px;
     line-height: 13px;
     letter-spacing: 3.7px;
     color: #FFFFFF;
     margin-bottom: 30px;
+    border: none;
+    background: none;
 }
 /*SECTION HERO*/
 /*SECTION HEADER*/
@@ -98,7 +100,6 @@ input {
     text-transform: uppercase;
 }
 .header_link:hover {
-    content: "";
     color: #00A4E5;
 }
 /*SECTION HEADER*/
@@ -310,6 +311,7 @@ input {
     height: 40px;
     padding: 0 49px;
     background: #00A4E5;
+    font-weight: 700;
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.5px;
@@ -317,3 +319,95 @@ input {
     color: #FFFFFF;
 }
 /*SECTION NEWSLETTER*/
+/*SECTION FOOTER*/
+.footer_top {
+    padding: 41px 0 50px;
+    background: #141A20;
+}
+.company_title {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.company svg {
+    margin: 19px 0 15px;
+}
+.company_desc {
+    width: 250px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+}
+.links_title {
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.links_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 36px;
+}
+.footer_link {
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.footer_link:hover {
+    color: #00A4E5;
+}
+.contact_title {
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.footer_contact:first-child {
+    width: 141px;
+}
+.footer_contact {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.footer_contact:hover {
+    color: #00A4E5;
+}
+.footer_contact:not(:first-child) {
+    margin-top: 15px;
+}
+.footer_bottom {
+    height: 60px;
+    background: #171819;
+}
+.social {
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+}
+.fa-brands {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.fa-brands:hover {
+    color: #00A4E5;
+}
+.copyright {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+/*SECTION FOOTER*/
