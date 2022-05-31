@@ -15,6 +15,9 @@ a {
     color: inherit;
     text-decoration: none;
 }
+button {
+    border: none;
+}
 /*BASE CONFIG*/
 /*UNIQUE CONFIG*/
 .d_flex {
@@ -31,6 +34,9 @@ a {
 }
 .justify-between {
     justify-content: space-between;
+}
+.flex-wrap {
+    flex-wrap: wrap;
 }
 .container {
     max-width: 962px;
@@ -95,7 +101,7 @@ a {
 /*SECTION HEADER*/
 /*SECTION ABOUT*/
 .about {
-    padding: 58px 0 116px;
+    padding: 58px 0;
 }
 .about_title {
     position: relative;
@@ -172,3 +178,68 @@ a {
     width: 68px;
 }
 /*SECTION ABOUT*/
+/*SECTION SERVICES*/
+.services {
+    padding: 58px 0;
+}
+.services_title {
+    position: relative;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+.services_title::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    border: 1px solid #00A4E5;
+    background-color: #00A4E5;
+    bottom: -12px;
+    text-align: left;
+}
+.services_desc {
+    width: 405.04px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+    margin-left: 155px;
+}
+.services_btn {
+    height: 40px;
+    background: #00A4E5;
+    padding: 0 29px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.services_grid {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 28px;
+}
+.services_card {
+    padding: 38px 0 38px 23px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+}
+.services_card_title {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+    margin: 25px 0 13px;
+}
+.services_card_desc {
+    width: 250px;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+/*SECTION SERVICES*/
