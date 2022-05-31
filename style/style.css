@@ -18,6 +18,9 @@ a {
 button {
     border: none;
 }
+input {
+    outline: none;
+}
 /*BASE CONFIG*/
 /*UNIQUE CONFIG*/
 .d_flex {
@@ -217,6 +220,7 @@ button {
     line-height: 15px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 .services_grid {
     margin-top: 15px;
@@ -268,5 +272,48 @@ button {
     line-height: 15px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 /*SECTION GET IN TOUCH*/
+/*SECTION NEWSLETTER*/
+.newsletter {
+    height: 100px;
+    background: #171819;
+}
+.newsletter_title {
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.newsletter .container .d_flex {
+    margin-left: 70px;
+}
+.newsletter_input {
+    width: 250px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07px;
+    padding-left: 16px;
+}
+.newsletter_input::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07px;
+    color: #48555B;
+}
+.newsletter_btn {
+    height: 40px;
+    padding: 0 49px;
+    background: #00A4E5;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/*SECTION NEWSLETTER*/
