@@ -210,6 +210,7 @@ button {
 }
 .services_btn {
     height: 40px;
+    font-weight: 700;
     background: #00A4E5;
     padding: 0 29px;
     font-size: 13px;
@@ -243,3 +244,29 @@ button {
     color: #48555B;
 }
 /*SECTION SERVICES*/
+/*SECTION GET IN TOUCH*/
+.get_in_touch {
+    height: 499px;
+    padding-top: 178px;
+    background: url("../images/get_in_touch.png") center/cover no-repeat;
+}
+.get_in_touch_title {
+    width: 350px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #48555B;
+    margin-bottom: 35px;
+}
+.get_in_touch_btn {
+    height: 40px;
+    font-weight: 700;
+    background: #00A4E5;
+    padding: 0 26px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+/*SECTION GET IN TOUCH*/
